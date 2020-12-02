@@ -56,6 +56,7 @@ public class GirisActivity extends AppCompatActivity {
                             intent.putExtra("kAdi",userName);
                             startActivity(intent);
                         }
+                        else Toast.makeText(GirisActivity.this, "Error", Toast.LENGTH_SHORT).show();
                     }
                 });
 
